@@ -1,0 +1,17 @@
+pandas
+numpy
+matplotlib
+langchain
+requests
+beautifulsoup4
+openai
+python-dotenv
+langchain_google_genai
+google-generativeai
+playwright
+pydantic
+scikit-learn
+selenium
+aiohttp
+sqlalchemy
+pyodbc
