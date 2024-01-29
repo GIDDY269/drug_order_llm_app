@@ -15,4 +15,4 @@ database = os.environ.get('DATABASE')
 server = os.environ.get('SERVER')
 
 
-db = SQLDatabase.from_uri('Driver={SQL Server};' + f'Server={server};Database={database};Trusted_Connection=yes;')
+db = SQLDatabase.from_uri(f'mssql+pyodbc://{server}/{database}?driver=SQL+Server&trusted_connection=yes')
